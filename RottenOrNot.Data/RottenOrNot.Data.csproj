@@ -7,8 +7,8 @@
     <ProjectGuid>{F5994824-FA6C-427A-BA02-1B4F70809686}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASP.NET_MVC_Project.Data</RootNamespace>
-    <AssemblyName>ASP.NET-MVC-Project.Data</AssemblyName>
+    <RootNamespace>RottenOrNot.Data</RootNamespace>
+    <AssemblyName>RottenOrNot.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,18 +49,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context.cs" />
+    <Compile Include="Migrations\201704072113431_Initial.cs" />
+    <Compile Include="Migrations\201704072113431_Initial.Designer.cs">
+      <DependentUpon>201704072113431_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="RottenOrNotContext.cs" />
+    <Compile Include="Contracts\IRottenOrNotContext.cs" />
+    <Compile Include="Contracts\IRottenOrNotData.cs" />
+    <Compile Include="Contracts\IRepository.cs" />
+    <Compile Include="RottenOrNotData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ASP.NET-MVC-Project.Models\ASP.NET-MVC-Project.Models.csproj">
+    <ProjectReference Include="..\ASP.NET-MVC-Project.Models\RottenOrNot.Models.csproj">
       <Project>{0ed5b273-a8bc-476c-aa43-26898531c430}</Project>
-      <Name>ASP.NET-MVC-Project.Models</Name>
+      <Name>RottenOrNot.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201704072113431_Initial.resx">
+      <DependentUpon>201704072113431_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

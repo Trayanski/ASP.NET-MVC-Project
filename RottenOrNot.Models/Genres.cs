@@ -1,0 +1,31 @@
+﻿namespace RottenOrNot.Models
+{
+	public enum Genres
+	{
+		Action,
+		Adventure,
+		Animation,
+		Comedy,
+		Crime,
+		Drama,
+		Fantasy,
+		Historical,
+		HistoricalFiction,
+		Horror,
+		MagicalRealism,
+		Mystery,
+		Musical,
+		Paranoid,
+		Philosophical,
+		Political,
+		Romance,
+		Saga,
+		Satire,
+		ScienceFiction,
+		SliceOfLife,
+		Speculative,
+		Thriller,
+		Urban,
+		Western
+	}
+}

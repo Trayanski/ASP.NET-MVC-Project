@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ASP.NET_MVC_Project.Web.Controllers
+namespace RottenOrNot.Web.Controllers
 {
 	public class HomeController : Controller
 	{

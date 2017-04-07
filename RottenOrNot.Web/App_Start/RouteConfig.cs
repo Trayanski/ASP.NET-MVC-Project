@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace ASP.NET_MVC_Project.Web
+namespace RottenOrNot.Web
 {
 	public class RouteConfig
 	{

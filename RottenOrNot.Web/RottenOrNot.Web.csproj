@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASP.NET_MVC_Project.Web</RootNamespace>
-    <AssemblyName>ASP.NET-MVC-Project.Web</AssemblyName>
+    <RootNamespace>RottenOrNot.Web</RootNamespace>
+    <AssemblyName>RottenOrNot.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -210,13 +210,13 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ASP.NET-MVC-Project.Data\ASP.NET-MVC-Project.Data.csproj">
+    <ProjectReference Include="..\ASP.NET-MVC-Project.Data\RottenOrNot.Data.csproj">
       <Project>{f5994824-fa6c-427a-ba02-1b4f70809686}</Project>
-      <Name>ASP.NET-MVC-Project.Data</Name>
+      <Name>RottenOrNot.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ASP.NET-MVC-Project.Models\ASP.NET-MVC-Project.Models.csproj">
+    <ProjectReference Include="..\ASP.NET-MVC-Project.Models\RottenOrNot.Models.csproj">
       <Project>{0ed5b273-a8bc-476c-aa43-26898531c430}</Project>
-      <Name>ASP.NET-MVC-Project.Models</Name>
+      <Name>RottenOrNot.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
