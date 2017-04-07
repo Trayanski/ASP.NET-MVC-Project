@@ -7,8 +7,8 @@
     <ProjectGuid>{0ED5B273-A8BC-476C-AA43-26898531C430}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASP.NET_MVC_Project.Models</RootNamespace>
-    <AssemblyName>ASP.NET-MVC-Project.Models</AssemblyName>
+    <RootNamespace>RottenOrNot.Models</RootNamespace>
+    <AssemblyName>RottenOrNot.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseShow.cs" />
+    <Compile Include="Film.cs" />
+    <Compile Include="Genres.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serials.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

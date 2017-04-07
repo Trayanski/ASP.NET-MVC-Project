@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace ASP.NET_MVC_Project.Web
+namespace RottenOrNot.Web
 {
 	public class BundleConfig
 	{
